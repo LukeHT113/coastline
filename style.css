@@ -1,0 +1,177 @@
+/* 
+Theme Name: Coastline
+Text Domain: Coastline
+Description: seaside-inspired theme that marries cosiness with a modern, sleek design, creating a soothing online sanctuary that’s both elegant and inviting.
+Tags: responsive, cosy, modern, sleek
+Author: Luke Talling
+Author URI: https://lukehtalling.com/
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --pale-yellow: #f1dbb6;
+  --light-brown: #e2ac6c;
+  --copper: #c47439;
+  --light-cyan: #b0cac8;
+  --cyan: #79a4aa;
+  --dark-cyan: #1e5c73;
+  --offwhite: #e3eadc;
+  --white: #fff;
+
+  /* Fonts */
+  --font-comfortaa: "Comfortaa", sans-serif;
+
+  font-family: var(--font-comfortaa);
+}
+
+body {
+  background-color: var(--light-cyan);
+}
+.rounded img,
+.rounded figure {
+  border-radius: 8px;
+}
+input,
+textarea {
+  font-family: var(--font-comfortaa);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  width: 8px;
+  background: white;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #989ea5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Header */
+.header-wave {
+  display: flex;
+  z-index: -5;
+}
+.top-wave {
+  -webkit-filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .2));
+  filter: drop-shadow( 1px 1px 1px rgba(0, 0, 0, .2));
+}
+
+/* Headings */
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+/* Tables */
+.coastline-small-table {
+  border-collapse: collapse;
+  padding: 0 8px;
+}
+.coastline-small-table td {
+  border: 1px solid var(--dark-cyan);
+  text-align: center;
+  padding: 8px;
+  font-weight: 300;
+}
+.coastline-small-table tr:nth-child(even) {
+  background-color: var(--offwhite);
+}
+
+/* Gallery */
+.gap-8 {
+  gap: 8px;
+}
+.gap-8 figure {
+  margin-block-end: 0;
+}
+
+/* Footer */
+.coastline-footer-waves {
+  display: flex;
+  z-index: -5;
+}
+.coastline-footer {
+  padding: 2rem 1rem; 
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 256px;
+}
+.coastline-footer-social-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+.coastline-social-link svg{
+  fill: var(--light-brown);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.coastline-social-link.ig:hover svg {
+  fill: url(#gradientFill);
+}
+.coastline-social-link.x:hover svg {
+  fill: black;
+}
+.coastline-social-link.fb:hover svg {
+  fill: #0866ff;
+}
+.coastline-social-link.li:hover svg {
+  fill: #0077B5;
+}
+
+@media screen and (max-width: 800px) {
+  .coastline-social-link {
+    width: 32px;
+    height: 32px;
+  }
+  .coastline-footer {
+    height: 208px;
+  }
+}
+
+/* WooCommerce */
+.coastline-header-search .wp-block-search__inside-wrapper {
+  border: none;
+  padding: 0;
+}
+.coastline-header-search .wp-block-search__inside-wrapper input {
+  text-indent: 8px;
+}
+.coastline-header-search .wp-block-search__inside-wrapper button {
+  margin: 0;
+}
+
+/* Animations */
+.cl-fade-in {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

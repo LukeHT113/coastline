@@ -1,0 +1,138 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "coastline-light-cyan",
+          "color": "#b0cac8",
+          "name": "Light Cyan"
+        },
+        {
+          "slug": "coastline-cyan",
+          "color": "#79a4aa",
+          "name": "Cyan"
+        },
+        {
+          "slug": "coastline-dark-cyan",
+          "color": "#1e5c73",
+          "name": "Dark Cyan"
+        },
+        {
+          "slug": "coastline-pale-yellow",
+          "color": "#f1dbb6",
+          "name": "Pale Yellow"
+        },
+        {
+          "slug": "coastline-light-brown",
+          "color": "#e2ac6c",
+          "name": "Light Brown"
+        },
+        {
+          "slug": "coastline-copper",
+          "color": "#c47439",
+          "name": "Copper"
+        },
+        {
+          "slug": "coastline-offwhite",
+          "color": "#e3eadc",
+          "name": "Offwhite"
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "light-to-dark-cyan",
+          "gradient": "linear-gradient(90deg, rgba(176,202,200,1) 0%, rgba(30,92,115,1) 100%)",
+          "name": "Light Cyan to Dark Cyan"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [{
+        "fontFamily": "'Comfortaa', sans-serif",
+        "slug": "Comfortaa",
+        "name": "Header - Comfortaa",
+        "fontFace": [{
+          "fontFamily": "'Comfortaa', sans-serif",
+          "fontWeight": "300",
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "src": ["file:./assets/fonts/comfortaa/Comfortaa-Light.ttf"]
+        },
+        {
+          "fontFamily": "'Comfortaa', sans-serif",
+          "fontWeight": "400",
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "src": ["file:./assets/fonts/comfortaa/Comfortaa-Regular.ttf"]
+        },
+        {
+          "fontFamily": "'Comfortaa', sans-serif",
+          "fontWeight": "500",
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "src": ["file:./assets/fonts/comfortaa/Comfortaa-Medium.ttf"]
+        }]
+      },
+      {
+        "fontFamily": "'Inter', sans-serif",
+        "slug": "Inter",
+        "name": "Body - Inter",
+        "fontFace": [{
+          "fontFamily": "'Inter', sans-serif",
+          "fontWeight": "100",
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "src": ["file:./assets/fonts/inter/Inter-Thin.ttf"]
+        },
+        {
+          "fontFamily": "'Inter', sans-serif",
+          "fontWeight": "200",
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "src": ["file:./assets/fonts/inter/Inter-ExtraLight.ttf"]
+        },
+        {
+          "fontFamily": "'Inter', sans-serif",
+          "fontWeight": "300",
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "src": ["file:./assets/fonts/inter/Inter-Light.ttf"]
+        },
+        {
+          "fontFamily": "'Inter', sans-serif",
+          "fontWeight": "400",
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "src": ["file:./assets/fonts/inter/Inter-Regular.ttf"]
+        },
+        {
+          "fontFamily": "'Inter', sans-serif",
+          "fontWeight": "500",
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "src": ["file:./assets/fonts/inter/Inter-Medium.ttf"]
+        },
+        {
+          "fontFamily": "'Inter', sans-serif",
+          "fontWeight": "600",
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "src": ["file:./assets/fonts/inter/Inter-SemiBold.ttf"]
+        },
+        {
+          "fontFamily": "'Inter', sans-serif",
+          "fontWeight": "700",
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "src": ["file:./assets/fonts/inter/Inter-Bold.ttf"]
+        }]
+      }]
+    }
+  }
+}

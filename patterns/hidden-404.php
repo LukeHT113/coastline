@@ -2,6 +2,7 @@
 /**
  * Title: 404
  * Slug: coastline/hidden-404
+ * Inserter: no
  */
 ?>
 

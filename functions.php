@@ -5,15 +5,7 @@ if (!function_exists('coastline_theme_support')) {
     add_theme_support('title-tag');
     add_theme_support( 'block-templates' );
     add_theme_support( 'block-template-parts' );
-    $logo_defaults = [
-      'height' => 90,
-      'width' => 130,
-      'flex-height' => true,
-      'flex-width' => true,
-      'header-text' => ['site-title', 'site-description'],
-      'unlink-homepage-logo' => true
-    ];
-    add_theme_support('custom-logo', $logo_defaults);
+    add_theme_support('custom-logo');
     add_theme_support('wp-block-styles');
     add_editor_style('style.css');
     add_theme_support( 'woocommerce');

@@ -3,7 +3,7 @@
 /**
  * Title: Offset gallery, 4 columns
  * Slug: coastline/offset-gallery-4-col
- * Categories: gallery, featured, portfolio
+ * Categories: gallery, featured, portfolio, hero
  */
 ?>
 

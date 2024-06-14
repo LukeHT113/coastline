@@ -9,7 +9,6 @@
  * Viewport width: 1400
  */
 ?>
-<!-- wp:pattern {"slug":"coastline/header"} /-->
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"1400px"}} -->
 <div class="wp-block-group">
   <!-- wp:pattern {"slug":"coastline/heading-with-hero"} /-->
@@ -17,4 +16,3 @@
   <!-- wp:pattern {"slug":"coastline/testimonials"} /-->
 </div>
 <!-- /wp:group -->
-<!-- wp:pattern {"slug":"coastline/footer"} /-->
